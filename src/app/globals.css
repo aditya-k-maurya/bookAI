@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+:root {
+    --primary-bg: linear-gradient(135deg, #1e0533, #110a1f);
+    --accent-color: #8a2be2;
+    --text-color: #ffffff;
+    --text-secondary: #b3b3b3;
+    --gradient-1: linear-gradient(45deg, #726bff, #57b6fe);
+    --gradient-2: linear-gradient(45deg, #8a2be2, #4b0082);
+}
+
+
+body.dark {
+      --primary-bg: linear-gradient(135deg, #1e0533, #110a1f);
+    --accent-color: #8a2be2;
+    --text-color: #ffffff;
+    --text-secondary: #b3b3b3;
+    --gradient-1: linear-gradient(45deg, #726bff, #57b6fe);
+    --gradient-2: linear-gradient(45deg, #8a2be2, #4b0082);
+}
+
+.contain{
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 20px;
+  background-color: var(bg);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    background: var(--primary-bg);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
