@@ -43,6 +43,7 @@
 .nav-links{
   display: flex;
   gap: 20px;
+  align-items: center;
 
 }
 .nav-link{
@@ -52,4 +53,9 @@
 .nav-link:hover{
   color: var(--accent-color);
   
+}
+.nav-login{
+ background:var(--gradient-1);
+ padding: 10px 20px;
+ border-radius: 5px;
 }

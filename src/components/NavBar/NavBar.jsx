@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const NavBar = () => {
   return (
-		<div className="nav">
+		<section className="nav">
 			<div className="nav-container">
 				<div className="nav-logo-section">
 					<div className="nav-circle"></div>
@@ -32,12 +32,12 @@ const NavBar = () => {
 					<Link href="/" className="nav-link">
 						Models
 					</Link>
-					<Link href="/" className="nav-link">
+					<Link href="/" className="nav-link nav-login">
 						Login/ Sign Up
 					</Link>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 

@@ -43,7 +43,7 @@ body.dark {
   margin: auto;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  padding: 20px;
+  padding: 20px 40px;
   background-color: var(bg);
 }
 
@@ -53,6 +53,21 @@ body {
     background: var(--primary-bg);
     color: var(--text-color);
     overflow-x: hidden;
+}
+
+.button{
+  position: relative;
+  background: var(--gradient-1);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor:pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.button:hover{
+  transform: translateY(-6px);
 }
 
 @layer utilities {
