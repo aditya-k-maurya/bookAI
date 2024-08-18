@@ -1,61 +1,118 @@
-
-.nav{
-  padding: 40px 60px;
-  max-width: 1500px;
-  margin: auto;
+.nav {
+	padding: 40px 60px;
+	max-width: 1500px;
+	margin: auto;
 }
-.nav-container{
-  display: flex;
-  justify-content: space-between;
-  color: var(--text-color);
-  align-items: center;
-}
-
-.nav-logo-section{
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	color: var(--text-color);
+	align-items: center;
 }
 
-.nav-logo{
-  height: 40px;
-  display: flex;
-
+.nav-logo-section {
+	display: flex;
+	align-items: center;
+	gap: 8px;
 }
 
-.nav-logo img{
-  height: 100%;
+.nav-logo {
+	height: 40px;
+	display: flex;
 }
 
-.nav-logo h2{
-  font-size: 1.6rem;
-  font-weight: 700;
+.nav-logo img {
+	height: 100%;
 }
 
-.nav-circle{
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background: var(--gradient-1);
-
+.nav-logo h2 {
+	font-size: 1.6rem;
+	font-weight: 700;
 }
 
-.nav-links{
-  display: flex;
-  gap: 20px;
-  align-items: center;
+.nav-circle {
+	min-width: 30px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: var(--gradient-1) !important;
+}
 
+.nav-links {
+	display: flex;
+	gap: 20px;
+	align-items: center;
 }
-.nav-link{
-  font-weight: 300;
-  transition: all 0.6s ease;
+.nav-link {
+	font-weight: 300;
+	transition: all 0.6s ease;
 }
-.nav-link:hover{
-  color: var(--accent-color);
-  
+.nav-link:hover {
+	color: var(--accent-color);
 }
-.nav-login{
- background:var(--gradient-1);
- padding: 10px 20px;
- border-radius: 5px;
+.nav-login {
+	background: var(--gradient-1);
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.nav-menu {
+	display: none;
+	background-color: var(--accent-color);
+	padding: 5px;
+	border-radius: 5px;
+	width: 35px;
+	height: 35px;
+}
+
+.nav-menu img {
+	width: 100%;
+	filter: invert(100%);
+}
+
+.nav-mobile {
+	position: fixed;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	top: 0px;
+	left: -100%;
+	background-color: var(--accent-color);
+	z-index: 5;
+	padding: 35px;
+	justify-content: space-between;
+  transition: all 0.5s ease;
+}
+
+
+.nav-mobile-container {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.nav-mobile .nav-link {
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+
+.nav-close {
+	width: 25px;
+	filter: invert(100%);
+}
+
+@media (max-width: 1024px) {
+	.nav-menu {
+		display: flex;
+	}
+
+	.nav-links {
+		display: none;
+	}
+}
+
+@media (max-width: 750px) {
+	.nav {
+		padding: 25px;
+	}
 }

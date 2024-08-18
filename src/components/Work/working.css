@@ -51,6 +51,10 @@
 
 
 @media(max-width:750px){
+  .working{
+    padding: 20px;
+  }
+  
   .working-item-container{
     flex-direction: column;
   }

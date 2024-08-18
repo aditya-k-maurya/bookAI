@@ -21,7 +21,6 @@
 	border: none;
 	border-radius: 5px 0 0 5px;
 	width: 60%;
-	max-width: 300px;
   margin-bottom: 1rem;
   color: gray;
   display: block;
@@ -46,4 +45,20 @@
 
 .updated-submit:hover{
   transform: translateY(-4px);
+}
+
+@media (max-width:750px) {
+
+	.stay-updated{
+		padding: 20px;
+	}
+	
+	.updated-input{
+		width: 100%;
+		border-radius: 5px;
+	}
+
+	.updated-submit{
+		border-radius: 5px;
+	}
 }

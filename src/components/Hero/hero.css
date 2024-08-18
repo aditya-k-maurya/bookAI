@@ -129,4 +129,9 @@ border-radius: 10px;
   .hero-complete p{
     font-size: .6rem;
   }
+
+  .hero .button{
+    font-size: .9rem;
+    padding: 7px 15px;
+  }
 }
