@@ -47,6 +47,12 @@ body.dark {
   background-color: var(bg);
 }
 
+@media (max-width:750px) {
+  .contain{
+    padding:20px 25px;
+  }
+}
+
 body {
     font-family: "Inter", sans-serif;
     line-height: 1.6;

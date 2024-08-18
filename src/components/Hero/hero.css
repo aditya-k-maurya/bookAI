@@ -104,3 +104,29 @@ border-radius: 10px;
   width: 1.5rem !important;
   height: 1.5rem;
 }
+
+@media(max-width:750px){
+
+  .hero-title{
+    font-size: 2rem !important;
+  }
+
+  .hero-content{
+    font-size: .9rem;
+  }
+
+  .hero-alert{
+    font-size: .7rem;
+  }
+
+  .hero-img-top img{
+    width:50px
+  }
+
+  .hero-complete .nav-circle{
+    width: .8rem;
+  }
+  .hero-complete p{
+    font-size: .6rem;
+  }
+}

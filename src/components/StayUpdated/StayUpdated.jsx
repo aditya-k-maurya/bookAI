@@ -13,7 +13,7 @@ const StayUpdated = () => {
 			return;
 		}
 
-		try {
+		try { 
 			// api calls to store email into database or verifying email.
 		} catch (error) {
 			console.error("Error submitting email:", error);

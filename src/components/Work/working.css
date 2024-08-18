@@ -50,3 +50,12 @@
 }
 
 
+@media(max-width:750px){
+  .working-item-container{
+    flex-direction: column;
+  }
+  .working-item{
+    width: 100%;
+  }
+}
+
