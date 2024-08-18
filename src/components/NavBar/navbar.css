@@ -31,7 +31,6 @@
 }
 
 .nav-circle {
-	min-width: 30px;
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
@@ -54,6 +53,7 @@
 	background: var(--gradient-1);
 	padding: 10px 20px;
 	border-radius: 5px;
+	color: white !important;
 }
 
 .nav-menu {

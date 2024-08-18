@@ -1,5 +1,5 @@
 .stay-updated {
-	background: rgba(255, 255, 255, 0.05);
+	background: var(--bg-2);
 	border-radius: 10px;
 	padding: 40px;
 }
@@ -21,14 +21,14 @@
 	border: none;
 	border-radius: 5px 0 0 5px;
 	width: 60%;
-  margin-bottom: 1rem;
-  color: gray;
-  display: block;
-  height: 40px;
+	margin-bottom: 1rem;
+	color: gray;
+	display: block;
+	height: 40px;
 }
 
-.updated-input:focus{
-  outline: none;
+.updated-input:focus {
+	outline: none;
 }
 
 .updated-submit {
@@ -38,27 +38,27 @@
 	padding: 10px 20px;
 	border-radius: 0 5px 5px 0;
 	cursor: pointer;
-  width: 100%;
-  font-size: .7rem;
+	width: 100%;
+	font-size: 0.7rem;
 	transition: transform 0.3s ease;
 }
 
-.updated-submit:hover{
-  transform: translateY(-4px);
+.updated-submit:hover {
+	transform: translateY(-4px);
 }
 
-@media (max-width:750px) {
-
-	.stay-updated{
+@media (max-width: 750px) {
+	.stay-updated {
 		padding: 20px;
 	}
-	
-	.updated-input{
+
+	.updated-input {
 		width: 100%;
 		border-radius: 5px;
 	}
 
-	.updated-submit{
+	.updated-submit {
 		border-radius: 5px;
+		color: white  !important;
 	}
 }

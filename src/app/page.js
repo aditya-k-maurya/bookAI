@@ -5,6 +5,7 @@ import Working from "@/components/Work/Working";
 import Roadmap from "@/components/Work/Roadmap"; 
 import Samples from "@/components/Samples/Samples";
 import StayUpdated from "@/components/StayUpdated/StayUpdated";
+import ModeSwitch from "@/components/ModeSwitcher";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Roadmap />
         <StayUpdated />
       </main>
+      <ModeSwitch/>
 		</div>
 	);
 }
